@@ -1,4 +1,6 @@
-# CATAN-Ground-500K-Random
+# CATAN-Ground-500K-Random  
+
+![](images/CATAN.gif)  
 
 Generates random grounds for CATAN board game and its extension version.  
 -It generates 500K random CATAN grounds,  
