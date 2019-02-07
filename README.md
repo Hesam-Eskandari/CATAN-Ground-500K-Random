@@ -17,8 +17,7 @@ Generates random grounds for CATAN board game and its extension version.
 The rule is no red number should be in the neighborhood of another red number.  
 The original color user for "Forests" in CATAN is dark green but I changed it to the color of woods.  
 \
-The function "polygon" presented below is a recursive function to draw and fill polygons with arbitrary number of sides. The length of sides, rotation degree, center of the polygon and a color to fill it are other inputs of this function.  
-This function is the graphical core of this project.  
+The function "polygon" presented below is a recursive function to draw and fill polygons with arbitrary number of sides. The length of sides, rotation degree, center of the polygon and a color to fill it are other inputs of this function. "polygon" is the graphical core of this project.  
 ```python
 def polygon(image,c,side,edges,rotate,fill,color=[50,50,50]):
     """
