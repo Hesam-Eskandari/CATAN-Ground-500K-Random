@@ -9,9 +9,9 @@ Generates random grounds for CATAN board game and its extension version.
 -Optimized version is developed,  
 -Runtime for intel core i7 -4500U -@1.80GHz for CATAN version is 83 seconds for 1000 samples.  
 ## A sample of CATAN ground  
-![CATAN sample](images/CATAN_127990.PNG)
-\
-\
+![CATAN sample](images/CATAN_127990.PNG)  
+
+
 ## One sample for the extension of CATAN  
 ![CATAN extension sample](images/CATAN_ext_430037.PNG)
   
@@ -54,5 +54,5 @@ def polygon(image,c,side,edges,rotate,fill,color=[50,50,50]):
         image,small_side = poly_skin(image,c,side,edges,color,rotate)
         return polygon(image,c,side-2,edges,rotate,fill,color)
 ```
-Here you can find a link to one million samples of CATAN and the extension together:  
-{https://drive.google.com/open?id=1nvbRNj7dBDScmpWcwMDG30If-EE-oq2J}
+Here you can find a link to [one million samples](https://drive.google.com/open?id=1nvbRNj7dBDScmpWcwMDG30If-EE-oq2J) of CATAN and the extension (500K + 500K) together.  
+
