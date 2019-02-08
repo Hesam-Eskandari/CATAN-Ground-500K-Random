@@ -1,11 +1,4 @@
-
-# coding: utf-8
-
-# In[ ]:
-
-
 #CATAN with efficient random generator
-#Final version
 from numpy import shape as np_shape
 from numpy import zeros as np_zeros
 from numpy import ones as np_ones
@@ -375,4 +368,3 @@ while name < numbers_to_generate:
 #print sum(t)/len(t)
 cv2_destroyAllWindows()
 #out.release()
-
